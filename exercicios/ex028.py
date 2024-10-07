@@ -8,3 +8,4 @@ if numero == numero_user:
     print("Você venceu, PARABÉNS!")
 else:
     print("Você perdeu, TENTE NOVAMENTE!")
+print("---FIM---")
