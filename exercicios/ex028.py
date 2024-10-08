@@ -3,6 +3,7 @@ O programa deverá escrever na tela se o usuário venceu ou perdeu."""
 
 from random import randint
 numero = randint(0, 5)
+print("---COMEÇANDO---")
 numero_user = int(input("Digite um número de 0 a 5: "))
 if numero == numero_user:
     print("Você venceu, PARABÉNS!")
