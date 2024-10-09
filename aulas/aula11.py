@@ -29,7 +29,13 @@ print("""40 - sem fundo
 46 - \033[46mazul claro\033[m
 47 - \033[47mcinza/branco\033[m""")
 
-
+print("Variáveis:")
+print("Sintaxe: 'nome da var':'/033[m'")
+print("Utiliza um dicionário para colocar as cores")
+print("(Lembrar que é barra INVERTIDA, e não barra normal)")
+nome = "Yuri"
+cores = {'limpar':'\033[m', 'txtazul':'\033[34m', 'txtvermelho':'\033[31m', 'fndvermelho':'\033[41m', 'txtamarelo':'\033[33m'}
+print(f"Olá, {cores['txtazul']}{nome}{cores['limpar']}! Muito prazer em te {cores['txtamarelo']}conhecer{cores['limpar']}.  ")
 
 
 
