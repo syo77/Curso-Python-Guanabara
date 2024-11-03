@@ -27,12 +27,3 @@ media_idade = soma_idade / 4
 print(f"A quantidade de mulheres menor de 20 anos é: {M_menos20}")
 print(f"A média de idade do grupo é: {media_idade}")
 print(f"O(s) homem(ns) mais velho(s) tem {H_maior_idade} anos e se chama(m): {', '.join(nome_H_mais_velho)}")
-
-
-
-
-
-
-
-
-
