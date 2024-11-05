@@ -3,7 +3,6 @@ Escreve um programa que leia a velocidade de um carro.
 Se ele ultrapassar 80Km/h, mostre uma mensagem dizendo que ele foi multado.
 A multa vai custar R$7,00 por cada Km acima do limite.
 """
-
 vel_carro = int(input("Digite a velocidade do carro: "))
 # vel_max = 80
 if vel_carro > 80: # if vel_carro > vel_max:

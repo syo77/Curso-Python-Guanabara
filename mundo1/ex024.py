@@ -1,4 +1,6 @@
-"""Crie um programa que leia o nome de uma cidade e diga se ela começa ou não com o nome "DEUS" """
+"""
+Crie um programa que leia o nome de uma cidade e diga se ela começa ou não com o nome "DEUS"
+"""
 cidade = input("Digite o nome da cidade: ").strip()
 maiusculo = cidade.upper()
 dividir = maiusculo.split()

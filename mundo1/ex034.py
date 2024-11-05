@@ -11,13 +11,3 @@ if salario > 1250.00:
 else:
     aumento = salario * (1 + 15/100)
     print(f"O aumento do seu salário será de 15%, portanto você receberá {aumento}")
-
-
-
-
-
-
-
-
-
-

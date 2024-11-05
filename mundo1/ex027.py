@@ -1,8 +1,8 @@
 """
 Faça um programa que leia o nome completo de um pessoa, mostrando em seguida o primeiro nome e o último nome separadamente
-Ex: Yuri Victor de Oliveira e Silva
-Primeiro: Yuri
-Último: Silva
+Ex: Jorge Alex Pereira
+Primeiro: Jorge
+Último: Pereira
 """
 nome = input("Digite seu nome: ").strip() 
 nome_low = nome.lower()
