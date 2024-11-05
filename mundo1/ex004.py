@@ -7,8 +7,3 @@ print("Só tem espaços?",mensagem.isspace())
 print("É minúsculo?",mensagem.islower())
 print("É maiúsculo?",mensagem.isupper())
 print("É capitalizado?",mensagem.istitle())
-
-
-
-
-

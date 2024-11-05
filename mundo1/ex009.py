@@ -1,9 +1,12 @@
+"""
+Faça um programa que recebe um número inteiro e mostra a tabuada dele
+"""
 numero = int(input("Digite um número: "))
-x = 1
-print(f"A tabuada de {numero}:")
-while x < 11:
-    print(f"{numero} X {x:>2} == {numero*x}")
-    x+=1
+# x = 1
+# print(f"A tabuada de {numero}:")
+# while x < 11:
+#     print(f"{numero} X {x:>2} == {numero*x}")
+#     x+=1
 
 numero2 = int(input("Digite outro número: "))
 print(f"A tabuada de {numero}:")

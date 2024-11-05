@@ -1,3 +1,6 @@
+"""
+Faça um programa que receba um valor em metros e mostre a conversão para diferentes unidades de medida.
+"""
 metro = float(input("Digite um valor em metros: "))
 km = metro/1000
 hm = metro/100
