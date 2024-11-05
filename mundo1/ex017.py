@@ -13,10 +13,3 @@ Hipotenusa: {hipotenusa:.2f}""")
 print("\nForma Python")
 hipotenusa2 = math.hypot(cateto_op, cateto_ad)
 print(f"Pela forma Python, a hipotenusa é: {hipotenusa2:.2f}")
-
-
-
-
-
-
-

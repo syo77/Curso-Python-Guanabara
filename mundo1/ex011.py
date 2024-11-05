@@ -8,16 +8,3 @@ area = largura*altura
 litro_tinta = area/2
 print(f"Uma parede de {largura}m por {altura}m tem uma área de {area}m²")
 print(f"É necessário de {litro_tinta} litro(s) de tinta para pintar a parede")
-
-
-
-
-
-
-
-
-
-
-
-
-

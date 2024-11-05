@@ -20,11 +20,3 @@ print(f"{numero2} X  {7} == {numero2*7}")
 print(f"{numero2} X  {8} == {numero2*8}")
 print(f"{numero2} X  {9} == {numero2*9}")
 print(f"{numero2} X {10} == {numero2*10}")
-
-
-
-
-
-
-
-

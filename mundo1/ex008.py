@@ -15,7 +15,3 @@ print(f"""O valor {metro} em metros corresponde:
 {dm} dm
 {cm} cm
 {mm} mm""")
-
-
-
-

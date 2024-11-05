@@ -14,4 +14,4 @@ else:
     print("""Tudo certo!
 Siga sua viagem!""")
 
-# Segundas opções ficarão como comentário
+# Segundas opções de código ficarão como comentário
