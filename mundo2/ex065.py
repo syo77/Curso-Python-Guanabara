@@ -36,5 +36,5 @@ while not finalizar:
 print(f"Você digitou {contador} número(s) e a média entre eles é: {media:.2f}")
 print(f"O maior número digitado foi '{maior}' e o menor foi '{menor}'")
 print("¬¬¬"*10)
-print(f"{'Programa finalizado':>5}")
+print("      Programa finalizado")
 print("¬¬¬"*10)
