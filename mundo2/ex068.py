@@ -10,7 +10,7 @@ print("JOGO DO PAR OU ÍMPAR")
 print("---"*10)
 while True:
     while True:
-        parouimpar = str(input("Par ou Ímpar? (P/I): ")).strip()[0]
+        parouimpar = str(input("Par ou Ímpar? [P/I]: ")).strip()[0]
         if parouimpar.lower() in 'pi':
             break
         else:
@@ -26,17 +26,19 @@ while True:
     if parouimpar.lower() == 'p':
         if resultado % 2 == 0:
             vitorias += 1
-            print("-=-"*10)
+            print("-++-"*10)
             print("VOCÊ GANHOU!")
             print(f"O computador jogou {computador}")
+            print(f"O total foi {resultado} que é par")
         else:
             break
     if parouimpar.lower() == 'i':
         if resultado % 2 != 0:
             vitorias += 1
-            print("-=-"*10)
+            print("-++-"*10)
             print("VOCÊ GANHOU!")
             print(f"O computador jogou {computador}")
+            print(f"O total foi {resultado} que é ímpar")
         else:
             break
 print("-=-"*10)
