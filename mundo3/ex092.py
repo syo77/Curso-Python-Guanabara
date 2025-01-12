@@ -18,24 +18,21 @@ while True:
         if nascimento >= 1919:
             print('Cadastrado...')
             break
-        else:
-            print("INVÁLIDO. Digite um ano verdadeiro...")
+        print("INVÁLIDO. Digite um ano verdadeiro...")
     except ValueError:
         print("ERRO. Digite o ano de seu nascimento...")
 while True:
     if nascimento <= ano_atual:
         dados['IDADE'] = ano_atual - nascimento
         break
-    else:
-        print("ERRO. Você não veio do futuro...")
+    print("ERRO. Você não veio do futuro...")
 while True:
     try:
         dados['CTPS'] = int(input("Carteira de trabalho (0 = inexistente): "))
         if dados['CTPS'] >= 0:
             print('Cadastrado...')
             break
-        else:
-            print("INVÁLIDO. Digite um número de CTPS válido...")
+        print("INVÁLIDO. Digite um número de CTPS válido...")
     except ValueError:
         print("ERRO. Insira apenas números...")
 if dados['CTPS'] != 0:
@@ -45,8 +42,7 @@ if dados['CTPS'] != 0:
             if dados['CONTRATAÇÃO'] >= 1919:
                 print('Cadastrado...')
                 break
-            else:
-                print("INVÁLIDO. Digite um ano real....")
+            print("INVÁLIDO. Digite um ano real....")
         except ValueError:
             print("ERRO. Digite apenas números...")
     tempo_contribuição = ano_atual - dados['CONTRATAÇÃO']
@@ -58,8 +54,7 @@ if dados['CTPS'] != 0:
             if dados['SALÁRIO'] > 0:
                 print('Cadastrado...')
                 break
-            else:
-                print("INVÁLIDO. Digite seu salário corretamente...")
+            print("INVÁLIDO. Digite seu salário corretamente...")
         except ValueError:
             print("ERRO. Insira apenas números...")
 print("-------"*12)

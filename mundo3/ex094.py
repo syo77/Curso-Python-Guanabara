@@ -21,8 +21,7 @@ while True:
         if pessoas['Sexo'] in 'MF':
             print("Cadastrado...")
             break
-        else:
-            print("INVÁLIDO. Digite M ou F...")
+        print("INVÁLIDO. Digite M ou F...")
     while True:
         try:
             pessoas['Idade'] = int(input("Idade: "))
@@ -39,23 +38,26 @@ while True:
         continuar = str(input("Deseja continuar? [S/N]: ")).lower().strip()[0]
         if continuar in 'sn':
             break
-        else:
-            print("INVÁLIDO. Digite S ou N...")
+        print("INVÁLIDO. Digite S ou N...")
     if continuar == 'n':
         print(">>> GERANDO RESULTADOS")
         break
-    else:
-        print("Continuando...")
+    print("Continuando...")
 media_idade = soma_idade / len(lista_pessoas)
 print(">"*19, "<"*19)
-print(f"Foram cadastradas {len(lista_pessoas)} pessoas")
-print(f"A média de idade é: {media_idade:.2f}")
-print(f">>> As mulheres cadastradas foram: ", end='')
 print(lista_pessoas)
-for dados in lista_pessoas:
-    print(dados)
-    if pessoas["Sexo"] == 'F':
-        print(f"{pessoas['Nome']}")
-    # CÓDIGO INCOMPLETO
-print(":")
+print(f"<<< Foram cadastradas {len(lista_pessoas)} pessoas")
+print(f"<<< A média de idade é: {media_idade:.2f}")
+print(f"<<< As mulheres cadastradas foram: ", end='')
+lista_mulheres = []
+for pessoa in lista_pessoas:
+    for dados in pessoa.values():
+        if dados == 'F':
+            # print(pessoa['Nome'], end=' || ') isso já resolveria
+            lista_mulheres.append(pessoa['Nome'])
+print(lista_mulheres)
+print("<<< A lista de pessoas com a idade maior que a média é: ")
+for pessoa in lista_pessoas:
+    if pessoa['Idade'] > media_idade:
+        print(f"<<<<<<< {pessoa['Nome']} com idade de {pessoa['Idade']} anos")
 print()
