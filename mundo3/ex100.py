@@ -21,7 +21,6 @@ print(">>> SORTEANDO <<<")
 for contador in range(10, 0, -1):
     print("."*contador, f"{contador}")
     sleep(0.5)
-    contador -= 1
 print(">>>>>>> ------- <<<<<<<")
 for posicao, valor in enumerate(numeros, start=1):
     sleep(0.5)
