@@ -1,0 +1,5 @@
+Salmos;23;1
+Jeremias;1;1
+Isaias;43;1
+Salmos;121;1
+1 Reis;1;1

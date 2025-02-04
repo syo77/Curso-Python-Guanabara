@@ -8,7 +8,7 @@ system('cls')
 # os.system('cls')
 
 print("--=--"*10)
-print(f"{'Caixa Eletronico':^50}")
+print(f"{"Yuri's Bank".center(50)}")
 print("--=--"*10)
 
 valor = int(input("Digite o valor a ser sacado: R$ "))
